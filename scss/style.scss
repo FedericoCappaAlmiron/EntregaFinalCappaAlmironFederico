@@ -1,0 +1,21 @@
+@import'./base/vars';
+@import'./base/maps';
+@import'./base/extend';
+@import'./base/mixin';
+@import'./componentes/carta';
+@import'./componentes/section';
+@import'./componentes/footer';
+@import'./componentes/header';
+@import './componentes/main';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/** animacion de inicio, carta, contacto, ubicacion y galeria **/
+
+.animacion:hover{
+    transform: scale(1.2);
+    background-color: rgb(70, 70, 70);
+    transition: all 0.5s;
+}

@@ -1,0 +1,5 @@
+@mixin titulosmain($fw, $fs, $pd){
+    font-weight: $fw;
+    font-size: $fs;
+    padding: $pd; 
+};

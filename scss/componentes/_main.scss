@@ -1,0 +1,19 @@
+main{
+    background-image: url(../img/hojasfondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        @include titulosmain(400, 100px, 15px 0 0 0);
+        color: $color-principal;
+        font-family: $fuente;
+        text-align: center;
+        text-shadow: 1px 2px 2px black;
+    }
+    h2{
+        @include titulosmain(200, 40px, 0 0 10px 0);
+        color: $color-principal;
+        font-family: $fuente;
+        text-align: center;
+        text-shadow: 1px 2px 2px black;
+    }
+}

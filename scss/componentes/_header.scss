@@ -1,0 +1,23 @@
+header{
+    height: 60px;
+    background-color: rgb(27, 27, 27);
+    nav{
+        ul{
+            li{
+                list-style-type: none ;
+                padding: 1px 10px 5px 10px ;
+                border: map-get($nav-border, brd);
+                border-radius: map-get($nav-border, brd-r );
+                margin: map-get($nav-border, mrg);
+                a{
+                    font-family: $fuente;
+                    color: $color-principal;
+                    font-weight: 200;
+                    font-size: 25px;
+                    text-shadow: 1px 2px 2px black;
+                    text-decoration: none ;
+                }
+            }
+        }
+    }
+}
