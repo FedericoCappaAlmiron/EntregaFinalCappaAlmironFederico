@@ -94,8 +94,12 @@ footer ul li {
 }
 
 header {
-  height: 60px;
+  height: 85px;
   background-color: rgb(27, 27, 27);
+}
+header nav ul {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 header nav ul li {
   list-style-type: none;
@@ -111,6 +115,20 @@ header nav ul li a {
   font-size: 25px;
   text-shadow: 1px 2px 2px black;
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .size-navegador {
+    margin: 2px;
+    border-radius: 5px;
+    padding: 1px 4px 1px 4px;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-size-a {
+    font-size: 20px;
+  }
 }
 
 main {
@@ -135,6 +153,18 @@ main h2 {
   font-family: "Roboto Slab", serif;
   text-align: center;
   text-shadow: 1px 2px 2px black;
+}
+
+@media (max-width: 600px) {
+  .size-h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .size-h2 {
+    font-size: 18px;
+  }
 }
 
 * {
