@@ -21,6 +21,12 @@ section {
   background-repeat: repeat-y;
 }
 
+@media (max-width: 600px) {
+  .descripcion {
+    font-size: 20px;
+  }
+}
+
 section p {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
@@ -65,23 +71,23 @@ section div iframe {
 
 footer {
   background-color: rgb(27, 27, 27);
-  height: 200px;
 }
 footer ul li {
   font-family: "Roboto Slab", serif;
   font-weight: 200;
   padding-top: 100px;
+  padding-bottom: 100px;
   list-style-type: none;
   font-size: 17px;
   color: white;
 }
-@media (max-width: 576px) {
+@media (max-width: 500px) {
   footer ul li {
     text-align: center;
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 500px) {
   .list-footer {
     text-align: end;
   }

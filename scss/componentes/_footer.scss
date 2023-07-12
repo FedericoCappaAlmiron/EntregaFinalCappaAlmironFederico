@@ -1,14 +1,14 @@
 footer{
     background-color: rgb(27, 27, 27);
-    height: 200px;
     ul{
         li{
-            @media (max-width:576px){
+            @media (max-width:500px){
                 text-align: center;
             }
             font-family: $fuente;
             font-weight: 200;
             padding-top: 100px;
+            padding-bottom: 100px;
             list-style-type: none;
             font-size: 17px;
             color: $color-principal
@@ -17,7 +17,7 @@ footer{
 }
 
 .list-footer{
-    @media (min-width:576px){
+    @media (min-width:500px){
         text-align: end;
     }
 }

@@ -7,6 +7,13 @@ section{
     width: 1060;
     background-repeat: repeat-y;
 }
+
+.descripcion{
+    @media (max-width:600px){
+        font-size: 20px;
+    }
+}
+
 section{
     p{
         font-family: $fuente;
