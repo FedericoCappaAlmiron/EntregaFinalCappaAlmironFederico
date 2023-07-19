@@ -15,6 +15,7 @@ main{
         font-family: $fuente;
         text-align: center;
         text-shadow: 1px 2px 2px black;
+        margin-bottom: 0px;
     }
 }
 
@@ -27,5 +28,6 @@ main{
 .size-h2{
     @media (max-width:600px){
         font-size: 18px;
+        margin-bottom: 0px;
     }
 }

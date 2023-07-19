@@ -6,17 +6,36 @@ section div ul, section div ol {
   text-shadow: 2px 2px 2px black;
 }
 
+@media (max-width: 600px) {
+  .ocultar {
+    display: none;
+  }
+}
+
 .altura-carta {
-  width: 80%;
+  width: 90%;
   max-height: 600px;
   height: auto;
+  padding-left: 120px;
+}
+
+@media (max-width: 600px) {
+  .carta-mbl {
+    width: 263px;
+    height: 619px;
+    padding-left: 100px;
+  }
+}
+@media (min-width: 600px) {
+  .carta-mbl {
+    display: none;
+  }
 }
 
 /** section que se repite en las 5 pag **/
 section {
   background-image: url(../img/bardesenfocado.jpg);
   background-size: 100%;
-  height: 700px;
   width: 1060;
   background-repeat: repeat-y;
 }
@@ -55,16 +74,50 @@ section div ol {
 @media (max-width: 576px) {
   section div ol {
     text-align: start;
+    font-size: 20px;
   }
 }
 section div ul {
   font-family: "Roboto Slab", serif;
   color: white;
 }
+@media (max-width: 576px) {
+  section div ul {
+    font-size: 20px;
+  }
+}
+
+/** aqui el formulario **/
+section div form {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+section div form label {
+  max-width: 30px;
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+
+.enviar {
+  background-color: rgb(27, 27, 27);
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100px;
+}
+
+@media (min-width: 576px) {
+  .size-label {
+    width: 100px;
+    height: 90px;
+    padding-top: 20px;
+  }
+}
 
 /** aqui el section del iframe (googlemaps) **/
 section div iframe {
   padding-top: 80px;
+  padding-bottom: 80px;
   width: 800px;
   height: 600px;
 }
@@ -94,10 +147,10 @@ footer ul li {
 }
 
 header {
-  height: 85px;
   background-color: rgb(27, 27, 27);
 }
 header nav ul {
+  margin-bottom: 0px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -131,6 +184,12 @@ header nav ul li a {
   }
 }
 
+@media (max-width: 500px) {
+  .nav-mobile {
+    flex-wrap: wrap;
+  }
+}
+
 main {
   background-image: url(../img/hojasfondo.png);
   background-repeat: no-repeat;
@@ -153,6 +212,7 @@ main h2 {
   font-family: "Roboto Slab", serif;
   text-align: center;
   text-shadow: 1px 2px 2px black;
+  margin-bottom: 0px;
 }
 
 @media (max-width: 600px) {
@@ -164,6 +224,7 @@ main h2 {
 @media (max-width: 600px) {
   .size-h2 {
     font-size: 18px;
+    margin-bottom: 0px;
   }
 }
 

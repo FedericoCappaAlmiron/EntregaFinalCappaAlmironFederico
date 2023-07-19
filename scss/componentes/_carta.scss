@@ -1,5 +1,23 @@
+.ocultar{
+    @media (max-width:600px){
+        display: none;
+    }
+}
+
 .altura-carta{
-    width: 80%;
+    width: 90%;
     max-height: 600px;
     height: auto;
+    padding-left: 120px;
+}
+
+.carta-mbl{
+    @media (max-width:600px){
+        width: 263px;
+        height: 619px;
+        padding-left: 100px;
+    }
+    @media (min-width:600px){
+        display: none;
+    }
 }

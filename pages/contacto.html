@@ -24,7 +24,7 @@
 <body>
     <header> <!--5 paginas de navegacion-->
         <nav class="container-fluid">
-            <ul class="d-flex justify-content-around">
+            <ul class="d-flex justify-content-around nav-mobile">
                 <li class="animacion size-navegador"><a class="font-size-a" href="../index.html">Inicio</a></li>
                 <li class="animacion size-navegador"><a class="font-size-a" href="./carta.html">Carta</a></li>
                 <li class="animacion size-navegador"><a class="font-size-a" href="./contacto.html">Contacto</a></li>
@@ -63,7 +63,20 @@
                 <li>20hs 02hs</li>
             </ul>
         </div>
+        <div class="container-fluid">
+            <form class="row d-flex justify-content-around" action="documento.php" method="get">
+                <label class="size-label col-lg-3 col-sm-6" for="nombre" name="nombre">Nombre</label>
+                <input class="col-lg-3 col-sm-6" type="text" required name="nombre" placeholder="Ingresa tu nombre">
+                <label class="size-label col-lg-3 col-sm-6" for="comentario" name="comentario">Dejá un comentario</label>
+                <input class="col-lg-3 col-sm-6" type="text" name="comentario" placeholder="Escribí un comentario">
+
+                <input class="enviar col-3" type="submit" value="Enviar">
+            </form>
+        </div>
     </section>
+    <article>
+
+    </article>
     <footer> <!--este es el footer-->
         <div class="container-fluid">
             <ul class="row d-flex">

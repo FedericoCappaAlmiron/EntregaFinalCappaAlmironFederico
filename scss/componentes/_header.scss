@@ -1,8 +1,9 @@
 header{
-    height: 85px;
+    
     background-color: rgb(27, 27, 27);
     nav{
         ul{
+            margin-bottom: 0px;
             padding-top: 15px;
             padding-bottom: 15px;
             li{
@@ -35,5 +36,11 @@ header{
 .font-size-a{
     @media (max-width:600px){
         font-size: 20px;
+    }
+}
+
+.nav-mobile{
+    @media (max-width:500px){
+        flex-wrap: wrap;
     }
 }
